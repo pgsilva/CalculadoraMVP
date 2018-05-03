@@ -22,7 +22,7 @@ public class TestMainPresenter {
     @Before
     public void setUp(){
         pres = new MainPresenter(view);
-        pres.onCreate();
+        pres.onCreate() ;
     }
 
     @Test
